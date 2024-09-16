@@ -1,0 +1,607 @@
+(base) kola@MsiAmd-Linux:~$ conda create --name my_bitkin
+Retrieving notices: ...working... done
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.7.4
+  latest version: 24.7.1
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.7.1
+
+
+
+## Package Plan ##
+
+  environment location: /home/kola/anaconda3/envs/my_bitkin
+
+
+
+Proceed ([y]/n)?
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate my_bitkin
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+(base) kola@MsiAmd-Linux:~$ conda activate my_bitkin
+(my_bitkin) kola@MsiAmd-Linux:~$ conda install geopandas
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.7.4
+  latest version: 24.7.1
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.7.1
+
+
+
+## Package Plan ##
+
+  environment location: /home/kola/anaconda3/envs/my_bitkin
+
+  added / updated specs:
+    - geopandas
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    attrs-23.1.0               |  py312h06a4308_0         153 KB
+    boost-cpp-1.82.0           |       hdb19cb5_2          11 KB
+    bottleneck-1.3.7           |  py312ha883a20_0         140 KB
+    branca-0.6.0               |  py312h06a4308_0          48 KB
+    brotli-1.0.9               |       h5eee18b_8          18 KB
+    brotli-bin-1.0.9           |       h5eee18b_8          19 KB
+    brotli-python-1.0.9        |  py312h6a678d5_8         356 KB
+    bzip2-1.0.8                |       h5eee18b_6         262 KB
+    ca-certificates-2024.7.2   |       h06a4308_0         127 KB
+    cairo-1.16.0               |       hb05425b_5         1.2 MB
+    certifi-2024.7.4           |  py312h06a4308_0         159 KB
+    charset-normalizer-3.3.2   |     pyhd3eb1b0_0          44 KB
+    click-8.1.7                |  py312h06a4308_0         203 KB
+    click-plugins-1.1.1        |     pyhd3eb1b0_0          10 KB
+    cligj-0.7.2                |     pyhd3eb1b0_0          11 KB
+    contourpy-1.2.0            |  py312hdb19cb5_0         238 KB
+    expat-2.6.2                |       h6a678d5_0         177 KB
+    fiona-1.9.5                |  py312h526ad5a_0        1020 KB
+    folium-0.14.0              |  py312h06a4308_0         124 KB
+    fontconfig-2.14.1          |       h55d465d_3         281 KB
+    fonttools-4.51.0           |  py312h5eee18b_0         2.9 MB
+    freexl-2.0.0               |       hf309648_0          57 KB
+    gdal-3.6.2                 |  py312h51fade5_5         1.6 MB
+    geopandas-0.14.2           |  py312h06a4308_0           7 KB
+    geopandas-base-0.14.2      |  py312h06a4308_0         1.4 MB
+    geos-3.8.0                 |       he6710b0_0         961 KB
+    geotiff-1.7.0              |       h2a26cda_3         274 KB
+    glib-2.78.4                |       h6a678d5_0         508 KB
+    glib-tools-2.78.4          |       h6a678d5_0         115 KB
+    hdf4-4.2.13                |       h3ca952b_2         714 KB
+    icu-73.1                   |       h6a678d5_0        25.9 MB
+    idna-3.7                   |  py312h06a4308_0         131 KB
+    intel-openmp-2023.1.0      |   hdb19cb5_46306        17.2 MB
+    jinja2-3.1.4               |  py312h06a4308_0         355 KB
+    joblib-1.4.2               |  py312h06a4308_0         513 KB
+    jpeg-9e                    |       h5eee18b_3         262 KB
+    json-c-0.16                |       h5eee18b_0          77 KB
+    kealib-1.5.0               |       hd940352_1         176 KB
+    kiwisolver-1.4.4           |  py312h6a678d5_0          68 KB
+    libboost-1.82.0            |       h109eef0_2        19.5 MB
+    libbrotlicommon-1.0.9      |       h5eee18b_8          69 KB
+    libbrotlidec-1.0.9         |       h5eee18b_8          31 KB
+    libbrotlienc-1.0.9         |       h5eee18b_8         286 KB
+    libcurl-8.9.1              |       h251f7ec_0         439 KB
+    libdeflate-1.17            |       h5eee18b_1          64 KB
+    libedit-3.1.20230828       |       h5eee18b_0         179 KB
+    libffi-3.4.4               |       h6a678d5_1         141 KB
+    libgdal-3.6.2              |       hd4d5da2_5        10.6 MB
+    libglib-2.78.4             |       hdc74915_0         1.5 MB
+    libiconv-1.16              |       h5eee18b_3         759 KB
+    libkml-1.3.0               |       h096b73e_7         537 KB
+    libnetcdf-4.8.1            |       h14805e7_4         1.1 MB
+    libnghttp2-1.57.0          |       h2d74bed_0         674 KB
+    libpq-12.17                |       hdbd6064_0         2.4 MB
+    libspatialite-5.1.0        |       h040243e_1         4.2 MB
+    libssh2-1.11.0             |       h251f7ec_0         282 KB
+    libxml2-2.13.1             |       hfdd30dd_2         739 KB
+    libzip-1.8.0               |       h6ac8c49_1         109 KB
+    lz4-c-1.9.4                |       h6a678d5_1         156 KB
+    mapclassify-2.5.0          |  py312h06a4308_0          76 KB
+    markupsafe-2.1.3           |  py312h5eee18b_0          25 KB
+    matplotlib-base-3.9.2      |  py312h66fe004_0         7.9 MB
+    minizip-4.0.3              |       hf59b114_0          98 KB
+    mkl-2023.1.0               |   h213fc3f_46344       171.5 MB
+    mkl-service-2.4.0          |  py312h5eee18b_1          66 KB
+    mkl_fft-1.3.10             |  py312h5eee18b_0         223 KB
+    mkl_random-1.2.7           |  py312h526ad5a_0         355 KB
+    networkx-3.3               |  py312h06a4308_0         3.0 MB
+    numexpr-2.8.7              |  py312hf827012_0         149 KB
+    numpy-1.26.4               |  py312hc5e2394_0          11 KB
+    numpy-base-1.26.4          |  py312h0da6c21_0         7.7 MB
+    openjpeg-2.5.2             |       he7f1fd0_0         371 KB
+    openssl-3.0.14             |       h5eee18b_0         5.2 MB
+    packaging-24.1             |  py312h06a4308_0         168 KB
+    pandas-2.2.2               |  py312h526ad5a_0        15.4 MB
+    pcre2-10.42                |       hebb0a14_1         1.3 MB
+    pillow-10.4.0              |  py312h5eee18b_0         946 KB
+    pip-24.2                   |  py312h06a4308_0         2.8 MB
+    pixman-0.40.0              |       h7f8727e_1         373 KB
+    poppler-22.12.0            |       h9614445_3        17.3 MB
+    poppler-data-0.4.11        |       h06a4308_1         2.6 MB
+    proj-9.3.1                 |       he5811b7_0         3.2 MB
+    pybind11-abi-5             |       hd3eb1b0_0          14 KB
+    pyparsing-3.1.2            |  py312h06a4308_0         450 KB
+    pyproj-3.6.1               |  py312h6268720_0         572 KB
+    pysocks-1.7.1              |  py312h06a4308_0          35 KB
+    python-3.12.4              |       h5148396_1        34.8 MB
+    python-dateutil-2.9.0post0 |  py312h06a4308_2         318 KB
+    pytz-2024.1                |  py312h06a4308_0         220 KB
+    qhull-2020.2               |       hdb19cb5_2         1.1 MB
+    requests-2.32.3            |  py312h06a4308_0         123 KB
+    rtree-1.0.1                |  py312h06a4308_0          58 KB
+    scikit-learn-1.5.1         |  py312h526ad5a_0        10.3 MB
+    scipy-1.13.1               |  py312hc5e2394_0        23.7 MB
+    setuptools-72.1.0          |  py312h06a4308_0         2.9 MB
+    shapely-2.0.5              |  py312h1789038_0         584 KB
+    sqlite-3.45.3              |       h5eee18b_0         1.2 MB
+    threadpoolctl-3.5.0        |  py312he106c6f_0          49 KB
+    tiledb-2.3.3               |       h77177df_3         2.6 MB
+    tk-8.6.14                  |       h39e8969_0         3.4 MB
+    tzdata-2024a               |       h04d1e81_0         116 KB
+    unicodedata2-15.1.0        |  py312h5eee18b_0         519 KB
+    uriparser-0.9.7            |       h5eee18b_0          45 KB
+    urllib3-2.2.2              |  py312h06a4308_0         224 KB
+    wheel-0.43.0               |  py312h06a4308_0         142 KB
+    xerces-c-3.2.4             |       h6a678d5_1         3.3 MB
+    xyzservices-2022.9.0       |  py312h06a4308_1          48 KB
+    xz-5.4.6                   |       h5eee18b_1         643 KB
+    zlib-1.2.13                |       h5eee18b_1         111 KB
+    zstd-1.5.5                 |       hc292b87_2         643 KB
+    ------------------------------------------------------------
+                                           Total:       430.0 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-5.1-1_gnu
+  attrs              pkgs/main/linux-64::attrs-23.1.0-py312h06a4308_0
+  blas               pkgs/main/linux-64::blas-1.0-mkl
+  blosc              pkgs/main/linux-64::blosc-1.21.3-h6a678d5_0
+  boost-cpp          pkgs/main/linux-64::boost-cpp-1.82.0-hdb19cb5_2
+  bottleneck         pkgs/main/linux-64::bottleneck-1.3.7-py312ha883a20_0
+  branca             pkgs/main/linux-64::branca-0.6.0-py312h06a4308_0
+  brotli             pkgs/main/linux-64::brotli-1.0.9-h5eee18b_8
+  brotli-bin         pkgs/main/linux-64::brotli-bin-1.0.9-h5eee18b_8
+  brotli-python      pkgs/main/linux-64::brotli-python-1.0.9-py312h6a678d5_8
+  bzip2              pkgs/main/linux-64::bzip2-1.0.8-h5eee18b_6
+  c-ares             pkgs/main/linux-64::c-ares-1.19.1-h5eee18b_0
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2024.7.2-h06a4308_0
+  cairo              pkgs/main/linux-64::cairo-1.16.0-hb05425b_5
+  certifi            pkgs/main/linux-64::certifi-2024.7.4-py312h06a4308_0
+  cfitsio            pkgs/main/linux-64::cfitsio-3.470-h5893167_7
+  charset-normalizer pkgs/main/noarch::charset-normalizer-3.3.2-pyhd3eb1b0_0
+  click              pkgs/main/linux-64::click-8.1.7-py312h06a4308_0
+  click-plugins      pkgs/main/noarch::click-plugins-1.1.1-pyhd3eb1b0_0
+  cligj              pkgs/main/noarch::cligj-0.7.2-pyhd3eb1b0_0
+  contourpy          pkgs/main/linux-64::contourpy-1.2.0-py312hdb19cb5_0
+  cycler             pkgs/main/noarch::cycler-0.11.0-pyhd3eb1b0_0
+  expat              pkgs/main/linux-64::expat-2.6.2-h6a678d5_0
+  fiona              pkgs/main/linux-64::fiona-1.9.5-py312h526ad5a_0
+  folium             pkgs/main/linux-64::folium-0.14.0-py312h06a4308_0
+  fontconfig         pkgs/main/linux-64::fontconfig-2.14.1-h55d465d_3
+  fonttools          pkgs/main/linux-64::fonttools-4.51.0-py312h5eee18b_0
+  freetype           pkgs/main/linux-64::freetype-2.12.1-h4a9f257_0
+  freexl             pkgs/main/linux-64::freexl-2.0.0-hf309648_0
+  gdal               pkgs/main/linux-64::gdal-3.6.2-py312h51fade5_5
+  geopandas          pkgs/main/linux-64::geopandas-0.14.2-py312h06a4308_0
+  geopandas-base     pkgs/main/linux-64::geopandas-base-0.14.2-py312h06a4308_0
+  geos               pkgs/main/linux-64::geos-3.8.0-he6710b0_0
+  geotiff            pkgs/main/linux-64::geotiff-1.7.0-h2a26cda_3
+  giflib             pkgs/main/linux-64::giflib-5.2.1-h5eee18b_3
+  glib               pkgs/main/linux-64::glib-2.78.4-h6a678d5_0
+  glib-tools         pkgs/main/linux-64::glib-tools-2.78.4-h6a678d5_0
+  hdf4               pkgs/main/linux-64::hdf4-4.2.13-h3ca952b_2
+  hdf5               pkgs/main/linux-64::hdf5-1.12.1-h2b7332f_3
+  icu                pkgs/main/linux-64::icu-73.1-h6a678d5_0
+  idna               pkgs/main/linux-64::idna-3.7-py312h06a4308_0
+  intel-openmp       pkgs/main/linux-64::intel-openmp-2023.1.0-hdb19cb5_46306
+  jinja2             pkgs/main/linux-64::jinja2-3.1.4-py312h06a4308_0
+  joblib             pkgs/main/linux-64::joblib-1.4.2-py312h06a4308_0
+  jpeg               pkgs/main/linux-64::jpeg-9e-h5eee18b_3
+  json-c             pkgs/main/linux-64::json-c-0.16-h5eee18b_0
+  kealib             pkgs/main/linux-64::kealib-1.5.0-hd940352_1
+  kiwisolver         pkgs/main/linux-64::kiwisolver-1.4.4-py312h6a678d5_0
+  krb5               pkgs/main/linux-64::krb5-1.20.1-h143b758_1
+  lcms2              pkgs/main/linux-64::lcms2-2.12-h3be6417_0
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.38-h1181459_1
+  lerc               pkgs/main/linux-64::lerc-3.0-h295c915_0
+  libboost           pkgs/main/linux-64::libboost-1.82.0-h109eef0_2
+  libbrotlicommon    pkgs/main/linux-64::libbrotlicommon-1.0.9-h5eee18b_8
+  libbrotlidec       pkgs/main/linux-64::libbrotlidec-1.0.9-h5eee18b_8
+  libbrotlienc       pkgs/main/linux-64::libbrotlienc-1.0.9-h5eee18b_8
+  libcurl            pkgs/main/linux-64::libcurl-8.9.1-h251f7ec_0
+  libdeflate         pkgs/main/linux-64::libdeflate-1.17-h5eee18b_1
+  libedit            pkgs/main/linux-64::libedit-3.1.20230828-h5eee18b_0
+  libev              pkgs/main/linux-64::libev-4.33-h7f8727e_1
+  libffi             pkgs/main/linux-64::libffi-3.4.4-h6a678d5_1
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-11.2.0-h1234567_1
+  libgdal            pkgs/main/linux-64::libgdal-3.6.2-hd4d5da2_5
+  libgfortran-ng     pkgs/main/linux-64::libgfortran-ng-11.2.0-h00389a5_1
+  libgfortran5       pkgs/main/linux-64::libgfortran5-11.2.0-h1234567_1
+  libglib            pkgs/main/linux-64::libglib-2.78.4-hdc74915_0
+  libgomp            pkgs/main/linux-64::libgomp-11.2.0-h1234567_1
+  libiconv           pkgs/main/linux-64::libiconv-1.16-h5eee18b_3
+  libkml             pkgs/main/linux-64::libkml-1.3.0-h096b73e_7
+  libnetcdf          pkgs/main/linux-64::libnetcdf-4.8.1-h14805e7_4
+  libnghttp2         pkgs/main/linux-64::libnghttp2-1.57.0-h2d74bed_0
+  libpng             pkgs/main/linux-64::libpng-1.6.39-h5eee18b_0
+  libpq              pkgs/main/linux-64::libpq-12.17-hdbd6064_0
+  libspatialindex    pkgs/main/linux-64::libspatialindex-1.9.3-h2531618_0
+  libspatialite      pkgs/main/linux-64::libspatialite-5.1.0-h040243e_1
+  libssh2            pkgs/main/linux-64::libssh2-1.11.0-h251f7ec_0
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-11.2.0-h1234567_1
+  libtiff            pkgs/main/linux-64::libtiff-4.5.1-h6a678d5_0
+  libuuid            pkgs/main/linux-64::libuuid-1.41.5-h5eee18b_0
+  libwebp-base       pkgs/main/linux-64::libwebp-base-1.3.2-h5eee18b_0
+  libxcb             pkgs/main/linux-64::libxcb-1.15-h7f8727e_0
+  libxml2            pkgs/main/linux-64::libxml2-2.13.1-hfdd30dd_2
+  libzip             pkgs/main/linux-64::libzip-1.8.0-h6ac8c49_1
+  lz4-c              pkgs/main/linux-64::lz4-c-1.9.4-h6a678d5_1
+  mapclassify        pkgs/main/linux-64::mapclassify-2.5.0-py312h06a4308_0
+  markupsafe         pkgs/main/linux-64::markupsafe-2.1.3-py312h5eee18b_0
+  matplotlib-base    pkgs/main/linux-64::matplotlib-base-3.9.2-py312h66fe004_0
+  minizip            pkgs/main/linux-64::minizip-4.0.3-hf59b114_0
+  mkl                pkgs/main/linux-64::mkl-2023.1.0-h213fc3f_46344
+  mkl-service        pkgs/main/linux-64::mkl-service-2.4.0-py312h5eee18b_1
+  mkl_fft            pkgs/main/linux-64::mkl_fft-1.3.10-py312h5eee18b_0
+  mkl_random         pkgs/main/linux-64::mkl_random-1.2.7-py312h526ad5a_0
+  ncurses            pkgs/main/linux-64::ncurses-6.4-h6a678d5_0
+  networkx           pkgs/main/linux-64::networkx-3.3-py312h06a4308_0
+  nspr               pkgs/main/linux-64::nspr-4.35-h6a678d5_0
+  nss                pkgs/main/linux-64::nss-3.89.1-h6a678d5_0
+  numexpr            pkgs/main/linux-64::numexpr-2.8.7-py312hf827012_0
+  numpy              pkgs/main/linux-64::numpy-1.26.4-py312hc5e2394_0
+  numpy-base         pkgs/main/linux-64::numpy-base-1.26.4-py312h0da6c21_0
+  openjpeg           pkgs/main/linux-64::openjpeg-2.5.2-he7f1fd0_0
+  openssl            pkgs/main/linux-64::openssl-3.0.14-h5eee18b_0
+  packaging          pkgs/main/linux-64::packaging-24.1-py312h06a4308_0
+  pandas             pkgs/main/linux-64::pandas-2.2.2-py312h526ad5a_0
+  pcre2              pkgs/main/linux-64::pcre2-10.42-hebb0a14_1
+  pillow             pkgs/main/linux-64::pillow-10.4.0-py312h5eee18b_0
+  pip                pkgs/main/linux-64::pip-24.2-py312h06a4308_0
+  pixman             pkgs/main/linux-64::pixman-0.40.0-h7f8727e_1
+  poppler            pkgs/main/linux-64::poppler-22.12.0-h9614445_3
+  poppler-data       pkgs/main/linux-64::poppler-data-0.4.11-h06a4308_1
+  proj               pkgs/main/linux-64::proj-9.3.1-he5811b7_0
+  pybind11-abi       pkgs/main/noarch::pybind11-abi-5-hd3eb1b0_0
+  pyparsing          pkgs/main/linux-64::pyparsing-3.1.2-py312h06a4308_0
+  pyproj             pkgs/main/linux-64::pyproj-3.6.1-py312h6268720_0
+  pysocks            pkgs/main/linux-64::pysocks-1.7.1-py312h06a4308_0
+  python             pkgs/main/linux-64::python-3.12.4-h5148396_1
+  python-dateutil    pkgs/main/linux-64::python-dateutil-2.9.0post0-py312h06a4308_2
+  python-tzdata      pkgs/main/noarch::python-tzdata-2023.3-pyhd3eb1b0_0
+  pytz               pkgs/main/linux-64::pytz-2024.1-py312h06a4308_0
+  qhull              pkgs/main/linux-64::qhull-2020.2-hdb19cb5_2
+  readline           pkgs/main/linux-64::readline-8.2-h5eee18b_0
+  requests           pkgs/main/linux-64::requests-2.32.3-py312h06a4308_0
+  rtree              pkgs/main/linux-64::rtree-1.0.1-py312h06a4308_0
+  scikit-learn       pkgs/main/linux-64::scikit-learn-1.5.1-py312h526ad5a_0
+  scipy              pkgs/main/linux-64::scipy-1.13.1-py312hc5e2394_0
+  setuptools         pkgs/main/linux-64::setuptools-72.1.0-py312h06a4308_0
+  shapely            pkgs/main/linux-64::shapely-2.0.5-py312h1789038_0
+  six                pkgs/main/noarch::six-1.16.0-pyhd3eb1b0_1
+  sqlite             pkgs/main/linux-64::sqlite-3.45.3-h5eee18b_0
+  tbb                pkgs/main/linux-64::tbb-2021.8.0-hdb19cb5_0
+  threadpoolctl      pkgs/main/linux-64::threadpoolctl-3.5.0-py312he106c6f_0
+  tiledb             pkgs/main/linux-64::tiledb-2.3.3-h77177df_3
+  tk                 pkgs/main/linux-64::tk-8.6.14-h39e8969_0
+  tzdata             pkgs/main/noarch::tzdata-2024a-h04d1e81_0
+  unicodedata2       pkgs/main/linux-64::unicodedata2-15.1.0-py312h5eee18b_0
+  uriparser          pkgs/main/linux-64::uriparser-0.9.7-h5eee18b_0
+  urllib3            pkgs/main/linux-64::urllib3-2.2.2-py312h06a4308_0
+  wheel              pkgs/main/linux-64::wheel-0.43.0-py312h06a4308_0
+  xerces-c           pkgs/main/linux-64::xerces-c-3.2.4-h6a678d5_1
+  xyzservices        pkgs/main/linux-64::xyzservices-2022.9.0-py312h06a4308_1
+  xz                 pkgs/main/linux-64::xz-5.4.6-h5eee18b_1
+  zlib               pkgs/main/linux-64::zlib-1.2.13-h5eee18b_1
+  zstd               pkgs/main/linux-64::zstd-1.5.5-hc292b87_2
+
+
+Proceed ([y]/n)?
+
+
+Downloading and Extracting Packages
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+(my_bitkin) kola@MsiAmd-Linux:~$ conda install seaborn
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.7.4
+  latest version: 24.7.1
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.7.1
+
+
+
+## Package Plan ##
+
+  environment location: /home/kola/anaconda3/envs/my_bitkin
+
+  added / updated specs:
+    - seaborn
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    seaborn-0.13.2             |  py312h06a4308_0         723 KB
+    ------------------------------------------------------------
+                                           Total:         723 KB
+
+The following NEW packages will be INSTALLED:
+
+  seaborn            pkgs/main/linux-64::seaborn-0.13.2-py312h06a4308_0
+
+
+Proceed ([y]/n)?
+
+
+Downloading and Extracting Packages
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+
+(my_bitkin) kola@MsiAmd-Linux:~$ conda install pip
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.7.4
+  latest version: 24.7.1
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=24.7.1
+
+
+
+## Package Plan ##
+
+  environment location: /home/kola/anaconda3/envs/my_bitkin
+
+  added / updated specs:
+    - pip
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    ca-certificates-2024.8.30  |       hbcca054_0         155 KB  conda-forge
+    certifi-2024.8.30          |     pyhd8ed1ab_0         160 KB  conda-forge
+    pip-24.2                   |     pyh8b19718_1         1.2 MB  conda-forge
+    ------------------------------------------------------------
+                                           Total:         1.5 MB
+
+The following packages will be UPDATED:
+
+  ca-certificates    pkgs/main::ca-certificates-2024.7.2-h~ --> conda-forge::ca-certificates-2024.8.30-hbcca054_0
+  certifi            pkgs/main/linux-64::certifi-2024.7.4-~ --> conda-forge/noarch::certifi-2024.8.30-pyhd8ed1ab_0
+  pip                pkgs/main/linux-64::pip-24.2-py312h06~ --> conda-forge/noarch::pip-24.2-pyh8b19718_1
+
+
+Proceed ([y]/n)?
+
+
+Downloading and Extracting Packages
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+(my_bitkin) kola@MsiAmd-Linux:~$ cp ~/Downloads/xgboost-2.2.0.dev0+f52f11e1d7c3e2c5b065f8fca6defc818089cebc-py3-none-
+xgboost-2.2.0.dev0+f52f11e1d7c3e2c5b065f8fca6defc818089cebc-py3-none-manylinux_2_28_x86_64.whl  xgboost-2.2.0.dev0+f52f11e1d7c3e2c5b065f8fca6defc818089cebc-py3-none-win_amd64.whl
+(my_bitkin) kola@MsiAmd-Linux:~$ cp ~/Downloads/xgboost-2.2.0.dev0+f52f11e1d7c3e2c5b065f8fca6defc818089cebc-py3-none-manylinux_2_28_x86_64.whl ./
+(my_bitkin) kola@MsiAmd-Linux:~$ pip install ./xgboost-2.2.0.dev0+f52f11e1d7c3e2c5b065f8fca6defc818089cebc-py3-none-manylinux_2_28_x86_64.whl
+Processing ./xgboost-2.2.0.dev0+f52f11e1d7c3e2c5b065f8fca6defc818089cebc-py3-none-manylinux_2_28_x86_64.whl
+Requirement already satisfied: numpy in ./anaconda3/envs/my_bitkin/lib/python3.12/site-packages (from xgboost==2.2.0.dev0+f52f11e1d7c3e2c5b065f8fca6defc818089cebc) (1.26.4)
+Collecting nvidia-nccl-cu12 (from xgboost==2.2.0.dev0+f52f11e1d7c3e2c5b065f8fca6defc818089cebc)
+  Downloading nvidia_nccl_cu12-2.22.3-py3-none-manylinux2014_x86_64.whl.metadata (1.8 kB)
+Requirement already satisfied: scipy in ./anaconda3/envs/my_bitkin/lib/python3.12/site-packages (from xgboost==2.2.0.dev0+f52f11e1d7c3e2c5b065f8fca6defc818089cebc) (1.13.1)
+Downloading nvidia_nccl_cu12-2.22.3-py3-none-manylinux2014_x86_64.whl (190.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 190.9/190.9 MB 9.1 MB/s eta 0:00:00
+Installing collected packages: nvidia-nccl-cu12, xgboost
+Successfully installed nvidia-nccl-cu12-2.22.3 xgboost-2.2.0.dev0
+(my_bitkin) kola@MsiAmd-Linux:~$ conda env export > environment.yml
+
+(my_bitkin) kola@MsiAmd-Linux:~$ conda list
+# packages in environment at /home/kola/anaconda3/envs/my_bitkin:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                        main
+_openmp_mutex             5.1                       1_gnu
+attrs                     23.1.0          py312h06a4308_0
+blas                      1.0                         mkl
+blosc                     1.21.3               h6a678d5_0
+boost-cpp                 1.82.0               hdb19cb5_2
+bottleneck                1.3.7           py312ha883a20_0
+branca                    0.6.0           py312h06a4308_0
+brotli                    1.0.9                h5eee18b_8
+brotli-bin                1.0.9                h5eee18b_8
+brotli-python             1.0.9           py312h6a678d5_8
+bzip2                     1.0.8                h5eee18b_6
+c-ares                    1.19.1               h5eee18b_0
+ca-certificates           2024.8.30            hbcca054_0    conda-forge
+cairo                     1.16.0               hb05425b_5
+certifi                   2024.8.30          pyhd8ed1ab_0    conda-forge
+cfitsio                   3.470                h5893167_7
+charset-normalizer        3.3.2              pyhd3eb1b0_0
+click                     8.1.7           py312h06a4308_0
+click-plugins             1.1.1              pyhd3eb1b0_0
+cligj                     0.7.2              pyhd3eb1b0_0
+contourpy                 1.2.0           py312hdb19cb5_0
+cycler                    0.11.0             pyhd3eb1b0_0
+expat                     2.6.2                h6a678d5_0
+fiona                     1.9.5           py312h526ad5a_0
+folium                    0.14.0          py312h06a4308_0
+fontconfig                2.14.1               h55d465d_3
+fonttools                 4.51.0          py312h5eee18b_0
+freetype                  2.12.1               h4a9f257_0
+freexl                    2.0.0                hf309648_0
+gdal                      3.6.2           py312h51fade5_5
+geopandas                 0.14.2          py312h06a4308_0
+geopandas-base            0.14.2          py312h06a4308_0
+geos                      3.8.0                he6710b0_0
+geotiff                   1.7.0                h2a26cda_3
+giflib                    5.2.1                h5eee18b_3
+glib                      2.78.4               h6a678d5_0
+glib-tools                2.78.4               h6a678d5_0
+hdf4                      4.2.13               h3ca952b_2
+hdf5                      1.12.1               h2b7332f_3
+icu                       73.1                 h6a678d5_0
+idna                      3.7             py312h06a4308_0
+intel-openmp              2023.1.0         hdb19cb5_46306
+jinja2                    3.1.4           py312h06a4308_0
+joblib                    1.4.2           py312h06a4308_0
+jpeg                      9e                   h5eee18b_3
+json-c                    0.16                 h5eee18b_0
+kealib                    1.5.0                hd940352_1
+kiwisolver                1.4.4           py312h6a678d5_0
+krb5                      1.20.1               h143b758_1
+lcms2                     2.12                 h3be6417_0
+ld_impl_linux-64          2.38                 h1181459_1
+lerc                      3.0                  h295c915_0
+libboost                  1.82.0               h109eef0_2
+libbrotlicommon           1.0.9                h5eee18b_8
+libbrotlidec              1.0.9                h5eee18b_8
+libbrotlienc              1.0.9                h5eee18b_8
+libcurl                   8.9.1                h251f7ec_0
+libdeflate                1.17                 h5eee18b_1
+libedit                   3.1.20230828         h5eee18b_0
+libev                     4.33                 h7f8727e_1
+libffi                    3.4.4                h6a678d5_1
+libgcc-ng                 11.2.0               h1234567_1
+libgdal                   3.6.2                hd4d5da2_5
+libgfortran-ng            11.2.0               h00389a5_1
+libgfortran5              11.2.0               h1234567_1
+libglib                   2.78.4               hdc74915_0
+libgomp                   11.2.0               h1234567_1
+libiconv                  1.16                 h5eee18b_3
+libkml                    1.3.0                h096b73e_7
+libnetcdf                 4.8.1                h14805e7_4
+libnghttp2                1.57.0               h2d74bed_0
+libpng                    1.6.39               h5eee18b_0
+libpq                     12.17                hdbd6064_0
+libspatialindex           1.9.3                h2531618_0
+libspatialite             5.1.0                h040243e_1
+libssh2                   1.11.0               h251f7ec_0
+libstdcxx-ng              11.2.0               h1234567_1
+libtiff                   4.5.1                h6a678d5_0
+libuuid                   1.41.5               h5eee18b_0
+libwebp-base              1.3.2                h5eee18b_0
+libxcb                    1.15                 h7f8727e_0
+libxml2                   2.13.1               hfdd30dd_2
+libzip                    1.8.0                h6ac8c49_1
+lz4-c                     1.9.4                h6a678d5_1
+mapclassify               2.5.0           py312h06a4308_0
+markupsafe                2.1.3           py312h5eee18b_0
+matplotlib-base           3.9.2           py312h66fe004_0
+minizip                   4.0.3                hf59b114_0
+mkl                       2023.1.0         h213fc3f_46344
+mkl-service               2.4.0           py312h5eee18b_1
+mkl_fft                   1.3.10          py312h5eee18b_0
+mkl_random                1.2.7           py312h526ad5a_0
+ncurses                   6.4                  h6a678d5_0
+networkx                  3.3             py312h06a4308_0
+nspr                      4.35                 h6a678d5_0
+nss                       3.89.1               h6a678d5_0
+numexpr                   2.8.7           py312hf827012_0
+numpy                     1.26.4          py312hc5e2394_0
+numpy-base                1.26.4          py312h0da6c21_0
+nvidia-nccl-cu12          2.22.3                   pypi_0    pypi
+openjpeg                  2.5.2                he7f1fd0_0
+openssl                   3.0.14               h5eee18b_0
+packaging                 24.1            py312h06a4308_0
+pandas                    2.2.2           py312h526ad5a_0
+pcre2                     10.42                hebb0a14_1
+pillow                    10.4.0          py312h5eee18b_0
+pip                       24.2               pyh8b19718_1    conda-forge
+pixman                    0.40.0               h7f8727e_1
+poppler                   22.12.0              h9614445_3
+poppler-data              0.4.11               h06a4308_1
+proj                      9.3.1                he5811b7_0
+pybind11-abi              5                    hd3eb1b0_0
+pyparsing                 3.1.2           py312h06a4308_0
+pyproj                    3.6.1           py312h6268720_0
+pysocks                   1.7.1           py312h06a4308_0
+python                    3.12.4               h5148396_1
+python-dateutil           2.9.0post0      py312h06a4308_2
+python-tzdata             2023.3             pyhd3eb1b0_0
+pytz                      2024.1          py312h06a4308_0
+qhull                     2020.2               hdb19cb5_2
+readline                  8.2                  h5eee18b_0
+requests                  2.32.3          py312h06a4308_0
+rtree                     1.0.1           py312h06a4308_0
+scikit-learn              1.5.1           py312h526ad5a_0
+scipy                     1.13.1          py312hc5e2394_0
+seaborn                   0.13.2          py312h06a4308_0
+setuptools                72.1.0          py312h06a4308_0
+shapely                   2.0.5           py312h1789038_0
+six                       1.16.0             pyhd3eb1b0_1
+sqlite                    3.45.3               h5eee18b_0
+tbb                       2021.8.0             hdb19cb5_0
+threadpoolctl             3.5.0           py312he106c6f_0
+tiledb                    2.3.3                h77177df_3
+tk                        8.6.14               h39e8969_0
+tzdata                    2024a                h04d1e81_0
+unicodedata2              15.1.0          py312h5eee18b_0
+uriparser                 0.9.7                h5eee18b_0
+urllib3                   2.2.2           py312h06a4308_0
+wheel                     0.43.0          py312h06a4308_0
+xerces-c                  3.2.4                h6a678d5_1
+xgboost                   2.2.0.dev0               pypi_0    pypi
+xyzservices               2022.9.0        py312h06a4308_1
+xz                        5.4.6                h5eee18b_1
+zlib                      1.2.13               h5eee18b_1
+zstd                      1.5.5                hc292b87_2
+(my_bitkin) kola@MsiAmd-Linux:~$
