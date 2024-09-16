@@ -8,4 +8,7 @@ height = input()
 
 
 #code here
-
+weight = float(weight)
+height = float(height)
+BMI = weight/height**2 
+print(BMI)
